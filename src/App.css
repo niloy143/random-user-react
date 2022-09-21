@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 50px;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row-gap: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
